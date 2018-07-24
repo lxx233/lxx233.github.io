@@ -1934,7 +1934,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #12ffaa;
+  background: #da7a01;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3122,20 +3122,21 @@ pre .deletion {
 }
 .post-button .btn {
   color: #555 !important;
-  background-color: #fff;
+  background-color: #fcfcfc;
   border-radius: 3px;
+  margin-top: 30px;
   font-size: 15px;
-  box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.35);
+  box-shadow: inset 0px 0px 10px 0px rgba(128,128,128,0.2);
   border: none !important;
   transition-property: unset;
   padding: 0px 15px;
 }
 .post-button .btn:hover {
-  color: #fff !important;
+  color: #fcfcfc !important;
   border-radius: 3px;
   font-size: 15px;
-  box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.35);
-  background-image: linear-gradient(90deg, #a166ab 0%, #ef4e7b 25%, #f37055 50%, #ef4e7b 75%, #a166ab 100%);
+  box-shadow: inset 0px 0px 10px 0px rgba(255,0,0,0.35);
+  background-image: linear-gradient(90deg, #ff7f00 0%, #ff7f00 25%, #ee0 50%, #adff2f 75%, #ab82ff 100%);
 }
 .posts-expand .post-tags a {
   border-bottom: none;
@@ -3157,9 +3158,8 @@ pre .deletion {
   margin-top: 30px;
 }
 .comments {
-  background-color: #fff;
-  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.35);
-  margin: 80px 0px 40px 0px;
+  background: rgba(255,255,255,0.3);
+  margin: 80px 0px 0px 0px;
 }
 a {
   color: #0a140a;
